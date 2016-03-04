@@ -9,13 +9,10 @@ alias la="ls -lah"
 # Directory shortcuts
 alias desk="cd $HOME/Desktop"
 alias home="cd $HOME/"
-alias tdb="cd $HOME/tombruijn/"
 alias pro="cd $HOME/projects/"
 alias pgo="cd $HOME/projects/go"
-alias dot="cd $HOME/tombruijn/dotfiles"
-alias kep="cd $HOME/keplar/"
-alias 4="cd $HOME/415/"
-alias m="cd $HOME/machinery/"
+alias dot="cd $HOME/code/dotfiles"
+alias 4="cd $HOME/code/415-web/"
 alias exp="cd $HOME/projects/experiments"
 
 # Small utilities
@@ -65,7 +62,7 @@ alias TEST="RAILS_ENV=test"
 alias DEV="RAILS_ENV=development"
 
 alias srs="s rails server"
-alias rs="bundle exec rails server"
+alias rs="bundle exec rails server -b 0.0.0.0"
 alias src="s rails console"
 alias rc="bundle exec rails console"
 alias rg="bundle exec rails generate"
@@ -80,3 +77,6 @@ alias sseed="s rake db:migrate:reset && SEED_DEMO=1 s rake db:seed"
 # Other
 alias cop="be rubocop"
 alias cov="open coverage/index.html"
+
+# Sublime
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"

@@ -32,8 +32,8 @@ done
 # https://github.com/postmodern/chruby/issues/196#issuecomment-23826171
 [[ -e /etc/zshenv ]] && sudo mv /etc/zshenv /etc/zprofile
 
-git config --global user.email "tom@tomdebruijn.com"
-git config --global user.name "Tom de Bruijn"
+git config --global user.email "tommotaylor@gmail.com"
+git config --global user.name "Tom Taylor"
 git config --global core.excludesfile "$HOME/.gitignore_global"
 git config --global color.diff always
 git config --global merge.ff only

@@ -4,7 +4,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'mileszs/ack.vim', { 'on': 'Ack' }
 Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'kien/ctrlp.vim'
 Plug 'ervandew/supertab'
 Plug 'tomtom/tcomment_vim'
@@ -34,6 +34,9 @@ Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'fatih/vim-go', { 'for': 'go' }
 
 call plug#end()
+
+set guioptions+=e
+set showtabline=2
 
 set encoding=utf-8
 

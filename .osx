@@ -19,7 +19,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 sudo nvram SystemAudioVolume=" "
 
 # Customize sign in screen
-defaults write com.apple.loginwindow LoginwindowText "email me at: tom@tomdebruijn.com"
+defaults write com.apple.loginwindow LoginwindowText "email me at: tommotaylor@gmail.com"
 
 # Menu bar
 ## Disable transparency in the menu bar and elsewhere on Yosemite
