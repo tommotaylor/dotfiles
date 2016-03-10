@@ -1141,52 +1141,20 @@
 	<true/>
 	<key>MaxVertically</key>
 	<false/>
-	<key>NSColorPanelMode</key>
-	<string>1</string>
-	<key>NSColorPickerPageableNameListDefaults</key>
-	<string>1Apple</string>
-	<key>NSColorPickerSlidersDefaults</key>
-	<string>1</string>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/tombruijn/dotfiles/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{1206, 1192}</string>
-	<key>NSNavPanelExpandedSizeForSaveMode</key>
-	<string>{712, 532}</string>
+	<string>{712, 459}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
-	<key>NSToolbar Configuration Terminal Toolbar</key>
-	<dict>
-		<key>TB Display Mode</key>
-		<integer>1</integer>
-		<key>TB Icon Size Mode</key>
-		<integer>1</integer>
-		<key>TB Is Shown</key>
-		<integer>0</integer>
-		<key>TB Size Mode</key>
-		<integer>1</integer>
-	</dict>
-	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
-	<dict>
-		<key>TB Is Shown</key>
-		<integer>1</integer>
-	</dict>
-	<key>NSWindow Frame NSColorPanel</key>
-	<string>874 274 406 376 0 0 1280 697 </string>
-	<key>NSWindow Frame NSFontPanel</key>
-	<string>1899 218 445 198 0 0 2560 1417 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>818 519 924 485 0 0 2560 1417 </string>
-	<key>NSWindow Frame SUStatusFrame</key>
-	<string>768 697 384 129 0 0 1920 1057 </string>
+	<string>703 733 924 485 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 9 1273 1408 0 0 2560 1417 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>275 101 570 451 0 0 1920 1058 </string>
+	<string>56 502 1042 915 0 0 2560 1417 </string>
 	<key>NeverWarnAboutShortLivedSessions_120B345E-3BAC-42FC-92E3-5123CE584BA5</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -1722,11 +1690,11 @@
 			<key>Name</key>
 			<string>Tom</string>
 			<key>Non Ascii Font</key>
-			<string>MesloLGM-RegularForPowerline 14</string>
+			<string>Menlo-Regular 16</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>MesloLGM-RegularForPowerline 14</string>
+			<string>Menlo-Regular 16</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -3326,9 +3294,9 @@
 		</dict>
 	</array>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>454889246.99573499</real>
+	<real>478429663.55949301</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>468364191.25834101</real>
+	<real>479120882.90377998</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -3377,7 +3345,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/tom/tombruijn/dotfiles/iterm2</string>
+	<string>/Users/Tom/code/dotfiles/iterm2/</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -3393,7 +3361,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-11-08T15:13:53Z</date>
+	<date>2016-03-09T15:12:01Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>

@@ -1,0 +1,6 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+c_space_errors	/Users/Tom/code/dotfiles/vim/.vimrc	/^let c_space_errors=1              " Highlight trailing spaces$/;"	v	language:Vim
+filetypes	/Users/Tom/code/dotfiles/vim/.vimrc	/^augroup filetypes$/;"	a	language:Vim
+g:font_focus	/Users/Tom/code/dotfiles/vim/.vimrc	/^let g:font_focus="Meslo\\ LG\\ M\\ Regular\\ for\\ Powerline:h20"$/;"	v	language:Vim
+g:font_normal	/Users/Tom/code/dotfiles/vim/.vimrc	/^let g:font_normal="Meslo\\ LG\\ M\\ Regular\\ for\\ Powerline:h18"$/;"	v	language:Vim
+mapleader	/Users/Tom/code/dotfiles/vim/.vimrc	/^let mapleader=","$/;"	v	language:Vim
