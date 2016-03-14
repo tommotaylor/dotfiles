@@ -2,36 +2,35 @@ set nocompatible
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'mileszs/ack.vim', { 'on': 'Ack' }
-Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
-Plug 'vim-airline/vim-airline-themes'
-Plug 'kien/ctrlp.vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'AndrewRadev/splitjoin.vim'
 Plug 'ervandew/supertab'
+Plug 'fatih/vim-go', { 'for': 'go' }
+Plug 'junegunn/goyo.vim'
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
+Plug 'kien/ctrlp.vim'
+Plug 'mileszs/ack.vim', { 'on': 'Ack' }
+Plug 'othree/html5.vim', { 'for': ['html', 'eruby'] }
+Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
+Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
+Plug 'Raimondi/delimitMate'
+Plug 'rizzatti/dash.vim'
+Plug 'sirver/ultisnips'
+Plug 'thoughtbot/vim-rspec', { 'for': 'ruby' }
 Plug 'tomtom/tcomment_vim'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-haml', { 'for': ['haml', 'sass', 'scss'] }
+Plug 'tpope/vim-rails', { 'for': 'ruby' }
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-dispatch'
-Plug 'airblade/vim-gitgutter'
-Plug 'Raimondi/delimitMate'
-Plug 'sirver/ultisnips'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-easytags'
-Plug 'junegunn/goyo.vim'
-Plug 'rizzatti/dash.vim'
-Plug 'AndrewRadev/splitjoin.vim'
-Plug 'tpope/vim-fugitive'
 
-Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
-Plug 'tpope/vim-rails', { 'for': 'ruby' }
-Plug 'thoughtbot/vim-rspec', { 'for': 'ruby' }
-
-Plug 'othree/html5.vim', { 'for': ['html', 'eruby'] }
-Plug 'tpope/vim-haml', { 'for': ['haml', 'sass', 'scss'] }
-Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
-Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
-Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
-Plug 'fatih/vim-go', { 'for': 'go' }
 
 call plug#end()
 
@@ -87,8 +86,7 @@ set expandtab                     " Use spaces instead of tabs.
 set clipboard=unnamed             " Enable OS clipboard to properly paste in to VIM buffer.
 set pastetoggle=<F2>
 
-set background=dark
-colorscheme twilight
+colorscheme monokai
 
 let &colorcolumn="80,100"         " Highlight column 80 and 100
 let c_space_errors=1              " Highlight trailing spaces
