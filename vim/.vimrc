@@ -92,6 +92,10 @@ let &colorcolumn="80,100"         " Highlight column 80 and 100
 let c_space_errors=1              " Highlight trailing spaces
 set splitbelow                    " Open vsplits to below
 set splitright                    " Open hsplits to the right
+set winwidth=100                   " Set split heights and autoexpand on focus
+set winheight=5
+set winminheight=5
+set winheight=999
 
 " Flag filetypes
 augroup filetypes
