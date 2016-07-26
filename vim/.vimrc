@@ -132,7 +132,7 @@ augroup filetypes
 augroup END
 
 let mapleader=","
-let g:font_normal="Meslo\ LG\ M\ Regular\ for\ Powerline:h18"
-let g:font_focus="Meslo\ LG\ M\ Regular\ for\ Powerline:h20"
+let g:font_normal="Meslo\ LG\ M\ Regular\ for\ Powerline:h14"
+let g:font_focus="Meslo\ LG\ M\ Regular\ for\ Powerline:h14"
 
 runtime! config/**/*.vim
