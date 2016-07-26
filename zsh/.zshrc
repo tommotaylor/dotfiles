@@ -32,3 +32,4 @@ export GOROOT=$(go env GOROOT)
 # chruby
 source "/usr/local/share/chruby/chruby.sh"
 source "/usr/local/share/chruby/auto.sh"
+export PATH="/usr/local/sbin:$PATH"
