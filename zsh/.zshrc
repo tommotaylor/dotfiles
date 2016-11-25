@@ -33,3 +33,7 @@ export GOROOT=$(go env GOROOT)
 source "/usr/local/share/chruby/chruby.sh"
 source "/usr/local/share/chruby/auto.sh"
 export PATH="/usr/local/sbin:$PATH"
+
+# Android SDK
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platorm-tools

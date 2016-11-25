@@ -80,3 +80,8 @@ alias cov="open coverage/index.html"
 
 # Sublime
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+# Docker
+alias dc="docker-compose"
+alias dcr="docker-compose run"
+alias dm="docker-machine"

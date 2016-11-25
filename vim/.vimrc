@@ -3,17 +3,22 @@ set nocompatible
 call plug#begin('~/.vim/plugged')
 
 Plug 'airblade/vim-gitgutter'
+Plug 'alvan/vim-closetag'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'ervandew/supertab'
 Plug 'fatih/vim-go', { 'for': 'go' }
+Plug 'jbgutierrez/vim-babel'
 Plug 'junegunn/goyo.vim'
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
+Plug 'mattn/webapi-vim'
 Plug 'mileszs/ack.vim', { 'on': 'Ack' }
+Plug 'mxw/vim-jsx'
 Plug 'othree/html5.vim', { 'for': ['html', 'eruby'] }
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
+Plug 'scrooloose/syntastic'
 Plug 'Raimondi/delimitMate'
 Plug 'rizzatti/dash.vim'
 Plug 'sirver/ultisnips'
@@ -30,8 +35,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-easytags'
-
-
 call plug#end()
 
 " set guioptions+=e
@@ -134,5 +137,7 @@ augroup END
 let mapleader=","
 let g:font_normal="Meslo\ LG\ M\ Regular\ for\ Powerline:h14"
 let g:font_focus="Meslo\ LG\ M\ Regular\ for\ Powerline:h14"
+let g:jsx_ext_required = 0
+let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.js"
 
 runtime! config/**/*.vim
