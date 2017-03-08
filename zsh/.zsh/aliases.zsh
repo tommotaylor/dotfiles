@@ -74,6 +74,10 @@ alias rdr="bundle exec rake db:migrate:reset"
 alias rdsd="rdr && SEED_DEMO=1 bundle exec rake db:seed"
 alias sseed="s rake db:migrate:reset && SEED_DEMO=1 s rake db:seed"
 
+# List Ruby Processes
+alias lsof="lsof -wni tcp:3000"
+
+
 # Other
 alias cop="be rubocop"
 alias cov="open coverage/index.html"
