@@ -74,6 +74,9 @@ alias rdr="bundle exec rake db:migrate:reset"
 alias rdsd="rdr && SEED_DEMO=1 bundle exec rake db:seed"
 alias sseed="s rake db:migrate:reset && SEED_DEMO=1 s rake db:seed"
 
+# Tail for detailed rspec output in new tab
+alias tail="tail -f log/test.log"
+
 # List Ruby Processes
 alias lsof="lsof -wni tcp:3000"
 
