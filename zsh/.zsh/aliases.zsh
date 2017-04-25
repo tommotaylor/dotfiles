@@ -92,3 +92,7 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias dc="docker-compose"
 alias dcr="docker-compose run"
 alias dm="docker-machine"
+
+# Hive
+alias bremote="bin/bundle-remote-hivewebshop_common"
+alias blocal="bin/bundle-local-hivewebshop_common"
