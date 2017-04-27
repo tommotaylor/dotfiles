@@ -96,3 +96,6 @@ alias dm="docker-machine"
 # Hive
 alias bremote="bin/bundle-remote-hivewebshop_common"
 alias blocal="bin/bundle-local-hivewebshop_common"
+
+# Remove all branches but master
+alias gbclean="git branch | grep -v "master" | xargs git branch -D"
