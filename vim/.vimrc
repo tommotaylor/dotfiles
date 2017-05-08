@@ -9,6 +9,7 @@ Plug 'ervandew/supertab'
 Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'jbgutierrez/vim-babel'
 Plug 'junegunn/goyo.vim'
+Plug 'jvanja/vim-bootstrap4-snippets'
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'kien/ctrlp.vim'
 Plug 'mattn/webapi-vim'
