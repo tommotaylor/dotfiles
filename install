@@ -8,26 +8,16 @@ ln -nfs "$(pwd)/zsh/.zshrc"             "$HOME/.zshrc"
 ln -nfs "$(pwd)/zsh/.zsh"               "$HOME/.zsh"
 ln -nfs "$(pwd)/.ruby-version"          "$HOME/.ruby-version"
 
-mkdir -p "$HOME/.bin"
-ln -nfs "$(pwd)/bin/git-fixup" "$HOME/.bin/git-fixup"
-ln -nfs "$(pwd)/bin/e" "$HOME/.bin/e"
-
 ln -nfs "$(pwd)/vim/.vimrc"             "$HOME/.vimrc"
 ln -nfs "$(pwd)/vim/.gvimrc"            "$HOME/.gvimrc"
 ln -nfs "$(pwd)/vim/.vim"               "$HOME/.vim"
-ln -nfs "$(pwd)/vim/.vim"               "$HOME/.config/nvim"
 ln -nfs "$(pwd)/ack/.ackrc"             "$HOME/.ackrc"
 ln -nfs "$(pwd)/hammerspoon"            "$HOME/.hammerspoon"
 
 ln -nfs "$(pwd)/.agignore" "$HOME/.agignore"
 ln -nfs "$(pwd)/git/.gitignore_global" "$HOME/.gitignore_global"
 ln -nfs "$(pwd)/git/.tigrc" "$HOME/.tigrc"
-ln -nfs "$HOME/Dropbox/vim/spell" "$HOME/.vim/spell"
 
-# Copy powerlines
-for file in ./powerline-fonts/Meslo/*.otf; do
-  cp -f "$file" "$HOME/Library/Fonts/"
-done
 
 # https://github.com/postmodern/chruby/issues/196#issuecomment-23826171
 [[ -e /etc/zshenv ]] && sudo mv /etc/zshenv /etc/zprofile

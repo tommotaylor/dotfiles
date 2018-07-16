@@ -9,11 +9,7 @@ alias la="ls -lah"
 # Directory shortcuts
 alias desk="cd $HOME/Desktop"
 alias home="cd $HOME/"
-alias pro="cd $HOME/projects/"
-alias pgo="cd $HOME/projects/go"
-alias dot="cd $HOME/code/dotfiles"
-alias 4="cd $HOME/code/415-web/"
-alias exp="cd $HOME/projects/experiments"
+
 
 # Small utilities
 alias flushdns="sudo discoveryutil mdnsflushcache"

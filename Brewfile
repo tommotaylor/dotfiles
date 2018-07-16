@@ -1,11 +1,6 @@
 tap "caskroom/cask"
-tap "homebrew/dupes"
 tap "neovim/neovim"
 tap "universal-ctags/universal-ctags"
-
-brew "python"
-brew "lua"
-brew "go"
 
 brew "openssl"
 brew "openssh"
@@ -16,10 +11,6 @@ brew "tig"
 brew "mercurial"
 brew "zsh"
 
-brew "the_silver_searcher"
-brew "cloc"
-brew "tree"
-brew "universal-ctags", args: ["HEAD"]
 brew "imagemagick"
 brew "jpegoptim"
 brew "optipng"
@@ -45,10 +36,10 @@ brew "phantomjs"
 
 brew "heroku-toolbelt"
 
+cask "react-native-debugger"
 cask "flux"
 cask "iterm2"
 cask "google-chrome"
 cask "firefox"
 cask "hammerspoon"
 cask "dash"
-cask "skype"
