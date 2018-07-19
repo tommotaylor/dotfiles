@@ -27,6 +27,8 @@ export PATH="/usr/local/share/npm/bin:$PATH"
 # chruby
 source "/usr/local/share/chruby/chruby.sh"
 source "/usr/local/share/chruby/auto.sh"
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
 export PATH="/usr/local/sbin:$PATH"
 
 # Android SDK
