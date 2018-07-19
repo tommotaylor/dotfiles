@@ -34,20 +34,12 @@ Next, clone this Git repository to your $HOME directory and initialize/update
 the submodules and finally hook everything up by running the `install` script.
 
 ```sh
-mkdir $HOME/tombruijn
-git clone git://github.com/tombruijn/dotfiles.git $HOME/tombruijn/dotfiles
-cd $HOME/tombruijn/dotfiles && git submodule init && \
-  git submodule update --recursive
+mkdir $HOME/code
+cd dotfiles
+git clone git://github.com/tommotaylor/dotfiles.git
 ./install
 ```
 
-### OSX defaults
-
-Set osx defaults.
-
-```sh
-./.osx
-```
 
 ### Homebrew
 
@@ -58,27 +50,18 @@ command.
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-After installing Homebrew, ensure permissions are correct by running the
-following.
+After installing Homebrew, run the following.
 
 ```sh
-sudo chown -R "$USER" /usr/local
 brew update
 brew tap Homebrew/bundle
-
 brew bundle --file=Brewfile
 ```
 
-### ZSH
-
-Set it as the default shell:
-
+### Oh My ZSH
 ```sh
-chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-
-This should set up the symlinks from the dotfiles directory to your `$HOME`
-directory, do not remove the `dotfiles` directory.
 
 ### iTerm2
 
@@ -100,12 +83,4 @@ vim +:PlugInstall
 
 ```sh
 ruby-install ruby [VERSION] ~/.rubies/ruby-[VERSION]
-```
-
-### Misc. Utilities
-
-**CoffeeScript language.**
-
-```sh
-npm install coffee-script
 ```
