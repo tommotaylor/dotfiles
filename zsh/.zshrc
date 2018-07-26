@@ -34,6 +34,7 @@ export PATH="/usr/local/sbin:$PATH"
 # Android SDK
 export ANDROID_HOME=~/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platorm-tools
+export PATH=/Users/tom/Library/Android/sdk/platform-tools:$PATH
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
